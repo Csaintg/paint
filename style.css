@@ -1,0 +1,74 @@
+body {
+    background-color: #7EFFD4;
+}
+h1{
+    font-family: "Muli", sans-serif;
+    font-size: 32px;
+}
+p {
+    font-family: "Muli", sans-serif;
+}
+
+.form-section {
+    background-color:#f2f2f2;
+
+}
+
+/* All divs, element selector */
+div {
+    margin: 10px;
+    display: flex;  
+}
+
+/* A flex container, all forms, element selector */
+form {
+    display: flex;
+    /* flex-direction: flex-end; */
+    flex-direction: column;
+    padding: 20px;
+    /*background-color:#f2f2f2;
+    margin-right: 400px;
+    margin-top: 10px;
+    border-radius: 6px;
+    width: 80%;
+    padding-bottom: 60%;
+    font-family: "Muli", sans-serif;
+    font-size: 14px; */
+}
+
+
+
+label {
+    /*Flex: a shorthand for
+     flex-grow  flex-shrink -flex-basis 
+     Number is pretty much a fraction of whole line
+     */
+    flex: 1;
+    text-align: right
+}
+
+input {
+    flex: 5;
+}
+
+
+
+/* UNUSED */
+
+.firstthree {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 58px;
+    /* align-content: space-around; */
+}
+.firstthree input {
+    display: flex;
+    /* flex-wrap: nowrap;
+    align-content: space-between; */
+    border: 1px solid silver;
+    border-radius: 3px;
+    width: 585px;
+    height: 22px;
+    margin-left: 10px;
+}
+
